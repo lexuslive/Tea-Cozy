@@ -19,6 +19,7 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  top: 0%;
   z-index: 10;
 }
 
@@ -59,6 +60,7 @@ main {
 
 .mission-container {
   background-color: black;
+  align-content: center;
 }
 
 /* Styling for the types of teas offered */
@@ -89,6 +91,7 @@ main {
 /* Styling for the locations section */
 .section3 {
   height: 500px;
+  width: 1200px;
   background-image: url(/Users/lexus/Projects/Tea-Cozy/Resources/Images/img-locations-background.jpg);
   align-content: center;
 }
@@ -106,4 +109,14 @@ main {
   opacity: 1;
 }
 
+/* Styling for the contact section*/
+.contact {
+height: 200px;
+}
 
+/* Footer */
+footer {
+  text-align: left;
+  align-content: center;
+  margin-left: 20px;
+}
