@@ -1,3 +1,4 @@
+/* Default styling for the website */
 html {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
@@ -8,6 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Styling for the header section */
 header {
   width: 100%;
   height: 69px;
@@ -27,7 +29,6 @@ header {
 
 #nav {
   font-size: 1rem;
-  margin-right: 10px;
 }
 
 a {
@@ -41,12 +42,14 @@ a:hover {
   color: gray;
 }
 
+/* Styling for the main document */
 main {
   padding: 0px 20px;
   position: relative;
   top: 69px;
 }
 
+/* Styling for the mission statement */
 .section1 {
   background-image: url(/Users/lexus/Projects/Tea-Cozy/Resources/Images/img-mission-background.jpg);
   height: 700px;
@@ -58,6 +61,7 @@ main {
   background-color: black;
 }
 
+/* Styling for the types of teas offered */
 .section2 {
   width: 1000px;
   padding-left: 80px;
@@ -76,6 +80,30 @@ main {
   flex-direction: column;
   margin-left: 30px;
   margin-bottom: 60px;
+}
+
+.caption {
+  margin-top: 10px;
+}
+
+/* Styling for the locations section */
+.section3 {
+  height: 500px;
+  background-image: url(/Users/lexus/Projects/Tea-Cozy/Resources/Images/img-locations-background.jpg);
+  align-content: center;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  width: 300px;
+  margin-top: 15px;
+  margin-right: 40px;
+  background-color: black;
+  opacity: 1;
 }
 
 
